@@ -56,9 +56,9 @@ export default function Home() {
           rel="stylesheet"
           href="https://unpkg.com/flowbite@1.5.5/dist/flowbite.min.css"
         />
-        <script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
       </Head>
       <main>
+        <script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
         <div className={styles.containerDiv}>
           <div>DropShipping</div>
           <div>Trade Shows</div>
