@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+// import Script from "next/script";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 import LanguageIcon from "@mui/icons-material/Language";
@@ -15,26 +15,20 @@ import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import ArticleOutlinedIcon from "@mui/icons-material/ArticleOutlined";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined";
-import { styled } from "@mui/material/styles";
 import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
 import CardMedia from "@mui/material/CardMedia";
 import CardContent from "@mui/material/CardContent";
 import CardActions from "@mui/material/CardActions";
-import Collapse from "@mui/material/Collapse";
 import Avatar from "@mui/material/Avatar";
 import Typography from "@mui/material/Typography";
 import { red } from "@mui/material/colors";
-import FavoriteIcon from "@mui/icons-material/Favorite";
-import ShareIcon from "@mui/icons-material/Share";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import MoreVertIcon from "@mui/icons-material/MoreVert";
 import MenuIcon from "@mui/icons-material/Menu";
 import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import MessageIcon from "@mui/icons-material/Message";
 import ReplyIcon from "@mui/icons-material/Reply";
-import Slider from "react-slick";
+// import Slider from "react-slick";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -56,8 +50,8 @@ export default function Home() {
           rel="stylesheet"
           href="https://unpkg.com/flowbite@1.5.5/dist/flowbite.min.css"
         />
-        <script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
-        <script src="../path/to/flowbite/dist/flowbite.js"></script>
+        <script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js" defer />
+        <script src="../path/to/flowbite/dist/flowbite.js" defer />
       </Head>
       <main>
         <div className={styles.containerDiv}>
