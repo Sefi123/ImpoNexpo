@@ -7,8 +7,6 @@ export default function Document() {
       <body style={{ margin: "0px" }}>
         <Main />
         <NextScript />
-
-        <script src="../path/to/flowbite/dist/flowbite.js"></script>
       </body>
     </Html>
   );

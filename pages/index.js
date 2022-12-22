@@ -59,6 +59,7 @@ export default function Home() {
       </Head>
       <main>
         <script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
+        <script src="../path/to/flowbite/dist/flowbite.js"></script>
         <div className={styles.containerDiv}>
           <div>DropShipping</div>
           <div>Trade Shows</div>
